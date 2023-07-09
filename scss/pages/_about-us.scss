@@ -32,3 +32,12 @@ main section a {
 .segundo h2{
     padding: 30px;
 }
+
+@media (max-width: 700px) {
+  h3 {
+    text-align: center;
+}
+  main section h3 {
+    margin-top: 30px;
+  }
+}

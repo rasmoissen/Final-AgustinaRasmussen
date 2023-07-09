@@ -88,4 +88,12 @@ main section a {
    width: 255px;
   }
 
-  
+  @media (max-width: 700px) {
+    .carousel-inner {
+      max-width: fit-content;
+    }
+    .imagen-carousel{
+      width: 400px;
+      margin-top: 50px;
+    }
+  }

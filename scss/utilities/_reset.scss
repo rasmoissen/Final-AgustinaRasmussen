@@ -5,7 +5,7 @@
 }
 
 h1 {
-    padding: 50px;
+    padding-top: 50px;
     color:#5585AD;
     font-family: 'Merriweather Sans', sans-serif;
 }
@@ -43,3 +43,9 @@ i {
     text-decoration: none;
     color: white;
 }
+
+@media (max-width: 700px) {
+    * {
+      font-size: small;
+  }
+  }
