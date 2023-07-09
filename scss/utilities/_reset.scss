@@ -1,0 +1,45 @@
+*{ 
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Quicksand', sans-serif; 
+}
+
+h1 {
+    padding: 50px;
+    color:#5585AD;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+    
+h3{
+    text-decoration: underline;
+    padding: 10px;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+i {
+    font-size: 19px;
+    padding: 5px;
+}
+  
+.footer {
+      background-color: #B3B179;
+      padding: 20px 100px;
+      color: white;
+      text-align: center;
+      bottom: 0;
+      width: 100%;
+      padding: 10px;
+ }
+
+.footer-sign-up {
+    margin-top:171px;
+}
+  
+.footer-login {
+    margin-top: 275px;
+}
+  
+.footer div a{
+    text-decoration: none;
+    color: white;
+}

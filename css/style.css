@@ -1,0 +1,322 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Quicksand', sans-serif; }
+
+h1 {
+  padding: 50px;
+  color: #5585AD;
+  font-family: 'Merriweather Sans', sans-serif; }
+
+h3 {
+  text-decoration: underline;
+  padding: 10px;
+  font-family: 'Merriweather Sans', sans-serif; }
+
+i {
+  font-size: 19px;
+  padding: 5px; }
+
+.footer {
+  background-color: #B3B179;
+  padding: 20px 100px;
+  color: white;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  padding: 10px; }
+
+.footer-sign-up {
+  margin-top: 171px; }
+
+.footer-login {
+  margin-top: 275px; }
+
+.footer div a {
+  text-decoration: none;
+  color: white; }
+
+.header {
+  background-color: #B3B179;
+  width: auto;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 50px; }
+
+.header img {
+  width: 220px;
+  margin-left: 20px; }
+
+.navbottom {
+  margin-bottom: auto; }
+
+.header a {
+  color: white;
+  text-decoration: none; }
+
+.header ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  margin-left: auto;
+  width: 450px; }
+
+.header nav ul li {
+  padding: 7px;
+  margin: 7px; }
+
+.header nav ul li:hover {
+  background-color: #5585AD;
+  border-radius: 30px;
+  padding: 7px; }
+
+@media (max-width: 700px) {
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: auto;
+    margin: auto;
+    font-size: small; }
+  .header img {
+    margin: 20px; }
+  .header nav ul li {
+    margin: auto;
+    width: auto;
+    flex-wrap: wrap; } }
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+
+p {
+  margin-top: 50px;
+  text-align: center; }
+
+.img-responsive {
+  max-width: 100%;
+  height: auto; }
+
+main section a {
+  color: white;
+  text-decoration: none; }
+
+.grid-padre {
+  background-color: #fdf7f0;
+  text-align: center;
+  padding: 10px;
+  display: grid;
+  margin: auto;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-areas: "daycare overnight walks"  ". drop-in .";
+  /*VER ESTO DE FLEX CON GRID
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    margin: 20px; 
+   */ }
+
+.pricing-column1 {
+  margin: 30px;
+  border: solid;
+  border-radius: 10px;
+  background-color: #8484d3;
+  grid-area: daycare; }
+
+.pricing-column1 img {
+  width: 280px; }
+
+.pricing-column2 {
+  margin: 30px;
+  border: solid;
+  border-radius: 10px;
+  background-color: violet;
+  grid-area: overnight; }
+
+.pricing-column2 img {
+  width: 280px; }
+
+.pricing-column3 {
+  margin: 30px;
+  border: solid;
+  border-radius: 10px;
+  background-color: pink;
+  grid-area: walks; }
+
+.pricing-column3 img {
+  width: 280px; }
+
+.pricing-column4 {
+  margin: 30px;
+  border: solid;
+  border-radius: 10px;
+  background-color: lightblue;
+  grid-area: drop-in; }
+
+.pricing-column4 img {
+  width: 255px; }
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+
+p {
+  margin-top: 50px;
+  text-align: center; }
+
+main section a {
+  color: white;
+  text-decoration: none; }
+
+.grid-padre {
+  background-color: #fdf7f0;
+  text-align: center;
+  padding: 10px;
+  display: grid;
+  margin: auto;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-areas: "daycare overnight walks"  ". drop-in .";
+  /*VER ESTO DE FLEX CON GRID
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    margin: 20px; 
+   */ }
+
+.pricing-column1 {
+  margin: 30px;
+  border: solid;
+  border-radius: 10px;
+  background-color: #8484d3;
+  grid-area: daycare; }
+
+.pricing-column1 img {
+  width: 280px; }
+
+.pricing-column2 {
+  margin: 30px;
+  border: solid;
+  border-radius: 10px;
+  background-color: violet;
+  grid-area: overnight; }
+
+.pricing-column2 img {
+  width: 280px; }
+
+.pricing-column3 {
+  margin: 30px;
+  border: solid;
+  border-radius: 10px;
+  background-color: pink;
+  grid-area: walks; }
+
+.pricing-column3 img {
+  width: 280px; }
+
+.pricing-column4 {
+  margin: 30px;
+  border: solid;
+  border-radius: 10px;
+  background-color: lightblue;
+  grid-area: drop-in; }
+
+.pricing-column4 img {
+  width: 255px; }
+
+/* si mi dispositivo tiene 700 o  menos ...*/
+@media (max-width: 700px) {
+  .grid-padre {
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    margin: 10px; } }
+
+.formulario {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  border: 1px solid;
+  border-radius: 5px;
+  background-color: #f1f1f1;
+  box-shadow: 3px 1px 5px 0px rgba(0, 0, 0, 0.75); }
+
+.formulario input {
+  margin: 12px; }
+
+.formulario input[type="text"] {
+  padding-left: 5px; }
+
+.formulario input[type="email"] {
+  padding-left: 5px; }
+
+.formulario p a {
+  text-decoration: none; }
+
+.formulario {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  border: 1px solid;
+  border-radius: 5px;
+  background-color: #f1f1f1;
+  box-shadow: 3px 1px 5px 0px rgba(0, 0, 0, 0.75); }
+
+.formulario input {
+  margin: 12px; }
+
+.formulario input[type="text"] {
+  padding-left: 5px; }
+
+.formulario input[type="email"] {
+  padding-left: 5px; }
+
+.formulario p a {
+  text-decoration: none; }
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+
+p {
+  margin-top: 50px;
+  text-align: center; }
+
+main section a {
+  color: white;
+  text-decoration: none; }
+
+.section {
+  padding: 20px;
+  font-size: 20px;
+  text-align: center; }
+
+.segundo {
+  padding: 20px;
+  font-size: 20px;
+  text-align: center; }
+
+.segundo h2 {
+  padding: 30px; }

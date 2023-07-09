@@ -1,0 +1,26 @@
+.formulario{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border:1px solid;
+    border-radius: 5px;
+    background-color: rgb(241, 241, 241);
+    box-shadow: 3px 1px 5px 0px rgba(0,0,0,0.75);
+}
+
+.formulario input{
+    margin: 12px;
+}
+
+.formulario input[type="text"] {
+    padding-left: 5px;
+}
+    
+.formulario input[type="email"] {
+    padding-left: 5px;
+}
+
+.formulario p a{
+    text-decoration: none;
+}
