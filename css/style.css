@@ -123,7 +123,7 @@ main section a {
   margin: auto;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
-  grid-template-areas: "daycare overnight walks"  ". drop-in .";
+  grid-template-areas: "daycare overnight walks" ". drop-in .";
   /*VER ESTO DE FLEX CON GRID
     display: flex;
     flex-direction: column;
@@ -202,7 +202,7 @@ main section a {
   margin: auto;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
-  grid-template-areas: "daycare overnight walks"  ". drop-in .";
+  grid-template-areas: "daycare overnight walks" ". drop-in .";
   /*VER ESTO DE FLEX CON GRID
     display: flex;
     flex-direction: column;
