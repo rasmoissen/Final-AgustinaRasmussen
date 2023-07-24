@@ -15,6 +15,15 @@ p {
   height: auto;
 }
 
+.carousel-inner {
+  h1 {
+    text-align: center;
+    margin-bottom: 50px;
+    padding: 0;
+
+  }
+}
+
 main section a {
   color: white;
   text-decoration: none;
@@ -29,4 +38,13 @@ main section a {
     width: 400px;
     margin-top: 50px;
   }
+
+  .carousel-inner {
+    h1 {
+
+      padding-top: 40px;
+      margin-bottom: 0px;
+    }
+  }
+
 }

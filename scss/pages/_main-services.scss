@@ -35,6 +35,19 @@ main section a {
    */
 }
 
+.grid-padre {
+  div {
+    h3 {
+      text-decoration: none;
+      color: #2a2a2a;
+      font-family: 'Quicksand', sans-serif;
+      font-size: 23px;
+      font-weight: 300;
+
+    }
+  }
+}
+
 .pricing-column1 {
   margin: 20px;
   // border: solid;
@@ -45,7 +58,7 @@ main section a {
 
 .pricing-column1 img {
   width: 200px;
-border-radius: 15px;
+  border-radius: 15px;
 }
 
 .pricing-column2 {
@@ -58,7 +71,7 @@ border-radius: 15px;
 
 .pricing-column2 img {
   width: 200px;
-border-radius: 15px;
+  border-radius: 15px;
 }
 
 .pricing-column3 {
@@ -70,8 +83,8 @@ border-radius: 15px;
 }
 
 .pricing-column3 img {
-  width: 200px;
-border-radius: 15px;
+  width: 220px;
+  border-radius: 15px;
 }
 
 .pricing-column4 {
@@ -84,7 +97,7 @@ border-radius: 15px;
 
 .pricing-column4 img {
   width: 200px;
- border-radius: 15px; 
+  border-radius: 15px;
 }
 
 /* si mi dispositivo tiene 700 o  menos ...*/
