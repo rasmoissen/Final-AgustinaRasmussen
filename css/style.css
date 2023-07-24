@@ -149,6 +149,13 @@ main section a {
   text-decoration: none;
 }
 
+.our-rates {
+  font-size: 25px;
+  font-weight: 500;
+  font-family: 'Merriweather Sans', sans-serif;
+  color: #5585AD;
+}
+
 .grid-padre {
   text-align: center;
   padding: 7px;
@@ -292,7 +299,7 @@ main {
 
 p {
   margin-top: 50px;
-  text-align: center;
+  text-align: left;
 }
 
 main section a {
@@ -316,8 +323,16 @@ main section a {
   padding: 30px;
 }
 
+.container-de-acordeon {
+  margin-bottom: 60px;
+}
+
 @media (max-width: 700px) {
   h3 {
+    text-align: center;
+  }
+
+  p {
     text-align: center;
   }
 
