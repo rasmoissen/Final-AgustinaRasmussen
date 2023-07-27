@@ -1,5 +1,5 @@
 .header {
-    background-color: #B3B179;
+    background-color: $verde;
     width: auto;
     padding: 20px;
     display: flex;
@@ -17,7 +17,7 @@
 
 .header {
     a {
-        color: white;
+        color: $blanco;
         text-decoration: none;
     }
 
@@ -49,7 +49,7 @@
     nav {
         ul {
             li:hover {
-                background-color: #5585AD;
+                background-color: $azul;
                 border-radius: 30px;
                 padding: 7px;
             }
