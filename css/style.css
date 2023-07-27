@@ -8,7 +8,7 @@ h1 {
   color: #5585AD;
   font-family: 'Merriweather Sans', sans-serif; }
 
-h3 {
+h2 {
   text-decoration: underline;
   padding: 10px;
   font-family: 'Merriweather Sans', sans-serif; }
@@ -118,10 +118,11 @@ main section a {
   text-decoration: none; }
 
 .our-rates {
-  font-size: 25px;
+  font-size: 35px;
   font-weight: 500;
   font-family: 'Merriweather Sans', sans-serif;
-  color: #5585AD; }
+  color: #5585AD;
+  margin: 30px 0px 40px 0px; }
 
 .grid-padre {
   text-align: center;
@@ -263,6 +264,9 @@ main section a {
 
 .container-de-acordeon {
   margin-bottom: 60px; }
+
+iframe {
+  margin: 55px 0px 0px 10px; }
 
 @media (max-width: 700px) {
   h3 {
