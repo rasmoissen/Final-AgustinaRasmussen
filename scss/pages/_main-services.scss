@@ -10,9 +10,13 @@ p {
   text-align: center;
 }
 
-main section a {
-  color: white;
-  text-decoration: none;
+main {
+  section {
+    a {
+      color: white;
+      text-decoration: none;
+    }
+  }
 }
 
 .our-rates {
@@ -21,6 +25,7 @@ main section a {
   font-family: 'Merriweather Sans', sans-serif;
   color: #5585AD;
   margin: 30px 0px 40px 0px;
+  text-decoration: none;
 }
 
 .grid-padre {
@@ -53,10 +58,11 @@ main section a {
   grid-area: daycare;
 }
 
-.pricing-column1 img {
-  width: 200px;
-  border-radius: 15px;
-
+.pricing-column1 {
+  img {
+    width: 200px;
+    border-radius: 15px;
+  }
 }
 
 .pricing-column2 {
@@ -64,10 +70,12 @@ main section a {
   grid-area: overnight;
 }
 
-.pricing-column2 img {
-  width: 200px;
-  border-radius: 15px;
-  margin: 0 25px;
+.pricing-column2 {
+  img {
+    width: 200px;
+    border-radius: 15px;
+    margin: 0 25px;
+  }
 }
 
 .img-hover:hover {
@@ -79,10 +87,11 @@ main section a {
   grid-area: walks;
 }
 
-.pricing-column3 img {
-  width: 220px;
-  border-radius: 15px;
-
+.pricing-column3 {
+  img {
+    width: 220px;
+    border-radius: 15px;
+  }
 }
 
 .pricing-column4 {
@@ -90,10 +99,12 @@ main section a {
   grid-area: drop-in;
 }
 
-.pricing-column4 img {
-  width: 230px;
-  border-radius: 15px;
-  margin-top: 20px;
+.pricing-column4 {
+  img {
+    width: 230px;
+    border-radius: 15px;
+    margin-top: 20px;
+  }
 }
 
 /* si mi dispositivo tiene 700 o  menos ...*/

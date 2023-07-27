@@ -24,9 +24,13 @@ p {
   }
 }
 
-main section a {
-  color: white;
-  text-decoration: none;
+main {
+  section {
+    a {
+      color: white;
+      text-decoration: none;
+    }
+  }
 }
 
 @media (max-width: 700px) {

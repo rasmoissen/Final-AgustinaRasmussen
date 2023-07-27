@@ -10,9 +10,13 @@ p {
   text-align: left;
 }
 
-main section a {
-  color: white;
-  text-decoration: none;
+main {
+  section {
+    a {
+      color: white;
+      text-decoration: none;
+    }
+  }
 }
 
 
@@ -29,15 +33,17 @@ main section a {
   text-align: center;
 }
 
-.segundo h2 {
-  padding: 30px;
+.segundo {
+  h2 {
+    padding: 30px;
+  }
 }
 
 .container-de-acordeon {
   margin-bottom: 60px;
 }
 
-iframe{
+iframe {
   margin: 55px 0px 0px 10px;
 }
 
