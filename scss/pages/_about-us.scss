@@ -19,21 +19,9 @@ main {
   }
 }
 
+.segundo-test {
+  @extend .segundo;
 
-
-.section {
-  padding: 20px;
-  font-size: 20px;
-  text-align: center;
-}
-
-.segundo {
-  padding: 20px;
-  font-size: 20px;
-  text-align: center;
-}
-
-.segundo {
   h2 {
     padding: 30px;
   }
