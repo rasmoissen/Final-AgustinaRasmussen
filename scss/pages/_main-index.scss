@@ -16,6 +16,7 @@ main {
     text-align: center;
     margin-bottom: 50px;
     padding: 0;
+    font-size: 60PX;
 
   }
 }
@@ -27,6 +28,36 @@ main {
       text-decoration: none;
     }
   }
+}
+
+.title-reviews{
+  text-align: center;
+  margin: 100px;
+  color: $negro;
+  opacity: 0.9;
+  font-size: 45px;
+  text-decoration: none;
+
+}
+
+.reviews-div {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 40px;
+  margin: 10PX;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.img-reviews {
+  width: 230px;
+  border-radius: 150px;
+
+}
+
+.reviews-clients {
+  width: 700px;
+
 }
 
 @media (max-width: 700px) {
@@ -41,10 +72,21 @@ main {
 
   .carousel-inner {
     h1 {
-
+      font-size: 45px;
       padding-top: 40px;
       margin-bottom: 0px;
     }
+  }
+  .reviews-div {
+    flex-direction: column;
+    align-content: center;
+  }
+  .reviews-clients{
+    width: 375px;
+  }
+  .title-reviews{
+    margin: 60px;
+    font-size: 40px;
   }
 
 }

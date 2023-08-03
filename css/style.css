@@ -21,11 +21,13 @@
 h1 {
   padding-top: 50px;
   color: #5585AD;
+  font-size: 50px;
   font-family: 'Merriweather Sans', sans-serif; }
 
 h2 {
-  text-decoration: underline;
   padding: 10px;
+  font-size: 30px;
+  opacity: 0.9;
   font-family: 'Merriweather Sans', sans-serif; }
 
 .header {
@@ -98,11 +100,35 @@ main {
   opacity: 0.85;
   text-align: center;
   margin-bottom: 50px;
-  padding: 0; }
+  padding: 0;
+  font-size: 60PX; }
 
 main section a {
   color: white;
   text-decoration: none; }
+
+.title-reviews {
+  text-align: center;
+  margin: 100px;
+  color: #2a2a2a;
+  opacity: 0.9;
+  font-size: 45px;
+  text-decoration: none; }
+
+.reviews-div {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 40px;
+  margin: 10PX;
+  justify-content: space-between;
+  align-items: center; }
+
+.img-reviews {
+  width: 230px;
+  border-radius: 150px; }
+
+.reviews-clients {
+  width: 700px; }
 
 @media (max-width: 700px) {
   .carousel-inner {
@@ -111,8 +137,17 @@ main section a {
     width: 400px;
     margin-top: 50px; }
   .carousel-inner h1 {
+    font-size: 45px;
     padding-top: 40px;
-    margin-bottom: 0px; } }
+    margin-bottom: 0px; }
+  .reviews-div {
+    flex-direction: column;
+    align-content: center; }
+  .reviews-clients {
+    width: 375px; }
+  .title-reviews {
+    margin: 60px;
+    font-size: 40px; } }
 
 main {
   display: flex;
