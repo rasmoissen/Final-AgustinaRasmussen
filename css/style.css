@@ -167,6 +167,9 @@ main section a {
   margin: 30px 0px 40px 0px;
   text-decoration: none; }
 
+.parrafo {
+  margin: 70px 0px 100px 0px; }
+
 .grid-padre {
   text-align: center;
   padding: 7px;
@@ -174,7 +177,7 @@ main section a {
   margin: auto;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
-  grid-template-areas: "daycare overnight walks" ". drop-in ."; }
+  grid-template-areas: "daycare overnight walks" ". drop-in ."; }
 
 .grid-padre div h3 {
   opacity: 0.8;
@@ -269,9 +272,6 @@ main section a {
 
 .container-de-acordeon {
   margin-bottom: 60px; }
-
-iframe {
-  margin: 55px 0px 0px 15%; }
 
 @media (max-width: 700px) {
   h2 {
